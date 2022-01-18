@@ -1,0 +1,56 @@
+.tool-bar {
+    position: absolute;
+    left: 320px;
+    top: 94px;
+    z-index: 999;
+  }
+  .wdd-span {
+    width: 100%;
+    padding: 6px 0;
+    display: inline-block;
+  }
+  .wdd-bottom{
+      margin-bottom: 1rem;
+  }
+  .wdd-input{
+      width: 100%;
+      padding: 5px 6px;
+  }
+  .twipsy {
+    display: block;
+    position: absolute;
+    visibility: visible;
+    max-width: 300px;
+    min-width: 100px;
+    padding: 5px;
+    font-size: 11px;
+    z-index: 1000;
+    opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.twipsy.right .twipsy-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #000000;
+}
+.twipsy-inner {
+    padding: 3px 8px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    max-width: 300px;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+::-webkit-input-placeholder{color: #ccc}
+::-webkit-scrollbar-track-piece {background-color: #ddd; border-radius:0 }
+::-webkit-scrollbar {  width:8px;  height:8px}
+::-webkit-scrollbar-thumb {  height:50px;  background-color:rgba(255, 255, 255, 0.28);  border-radius:6px;  outline:2px solid #fff;  outline-offset:-2px;  opacity:0.5}
+::-webkit-scrollbar-thumb:hover {  height:50px;  border-radius:6px}
